@@ -10,12 +10,15 @@
 		52CBE6422A37D970009E9A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6412A37D970009E9A81 /* AppDelegate.swift */; };
 		52CBE6442A37D970009E9A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6432A37D970009E9A81 /* SceneDelegate.swift */; };
 		52CBE6462A37D970009E9A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6452A37D970009E9A81 /* ViewController.swift */; };
-		52CBE6492A37D970009E9A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CBE6472A37D970009E9A81 /* Main.storyboard */; };
 		52CBE64B2A37D972009E9A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CBE64A2A37D972009E9A81 /* Assets.xcassets */; };
 		52CBE64E2A37D972009E9A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CBE64C2A37D972009E9A81 /* LaunchScreen.storyboard */; };
 		52CBE6592A37D972009E9A81 /* Cocktail_HourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6582A37D972009E9A81 /* Cocktail_HourTests.swift */; };
 		52CBE6632A37D972009E9A81 /* Cocktail_HourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6622A37D972009E9A81 /* Cocktail_HourUITests.swift */; };
 		52CBE6652A37D972009E9A81 /* Cocktail_HourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6642A37D972009E9A81 /* Cocktail_HourUITestsLaunchTests.swift */; };
+		52CBE6792A38F25B009E9A81 /* CocktailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE6782A38F25B009E9A81 /* CocktailListCell.swift */; };
+		52CBE67B2A3902CD009E9A81 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE67A2A3902CD009E9A81 /* Cocktail.swift */; };
+		52CBE67E2A3BC78B009E9A81 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE67D2A3BC78B009E9A81 /* DetailViewController.swift */; };
+		52CBE6802A3FED0E009E9A81 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBE67F2A3FED0E009E9A81 /* PaddingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		52CBE6412A37D970009E9A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CBE6432A37D970009E9A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52CBE6452A37D970009E9A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52CBE6482A37D970009E9A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52CBE64A2A37D972009E9A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CBE64D2A37D972009E9A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CBE64F2A37D972009E9A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		52CBE65E2A37D972009E9A81 /* Cocktail HourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocktail HourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CBE6622A37D972009E9A81 /* Cocktail_HourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail_HourUITests.swift; sourceTree = "<group>"; };
 		52CBE6642A37D972009E9A81 /* Cocktail_HourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail_HourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52CBE6782A38F25B009E9A81 /* CocktailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListCell.swift; sourceTree = "<group>"; };
+		52CBE67A2A3902CD009E9A81 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		52CBE67D2A3BC78B009E9A81 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52CBE67F2A3FED0E009E9A81 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,12 @@
 		52CBE6402A37D970009E9A81 /* Cocktail Hour */ = {
 			isa = PBXGroup;
 			children = (
+				52CBE67C2A3902D4009E9A81 /* Models */,
+				52CBE6752A38F1EB009E9A81 /* Services */,
+				52CBE6742A38F1DF009E9A81 /* Controllers */,
+				52CBE6732A38F1D5009E9A81 /* Views */,
 				52CBE6412A37D970009E9A81 /* AppDelegate.swift */,
 				52CBE6432A37D970009E9A81 /* SceneDelegate.swift */,
-				52CBE6452A37D970009E9A81 /* ViewController.swift */,
-				52CBE6472A37D970009E9A81 /* Main.storyboard */,
 				52CBE64A2A37D972009E9A81 /* Assets.xcassets */,
 				52CBE64C2A37D972009E9A81 /* LaunchScreen.storyboard */,
 				52CBE64F2A37D972009E9A81 /* Info.plist */,
@@ -125,6 +133,39 @@
 				52CBE6642A37D972009E9A81 /* Cocktail_HourUITestsLaunchTests.swift */,
 			);
 			path = "Cocktail HourUITests";
+			sourceTree = "<group>";
+		};
+		52CBE6732A38F1D5009E9A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52CBE67F2A3FED0E009E9A81 /* PaddingLabel.swift */,
+				52CBE6782A38F25B009E9A81 /* CocktailListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52CBE6742A38F1DF009E9A81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52CBE6452A37D970009E9A81 /* ViewController.swift */,
+				52CBE67D2A3BC78B009E9A81 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52CBE6752A38F1EB009E9A81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52CBE67C2A3902D4009E9A81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52CBE67A2A3902CD009E9A81 /* Cocktail.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +274,6 @@
 			files = (
 				52CBE64E2A37D972009E9A81 /* LaunchScreen.storyboard in Resources */,
 				52CBE64B2A37D972009E9A81 /* Assets.xcassets in Resources */,
-				52CBE6492A37D970009E9A81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +300,11 @@
 			files = (
 				52CBE6462A37D970009E9A81 /* ViewController.swift in Sources */,
 				52CBE6422A37D970009E9A81 /* AppDelegate.swift in Sources */,
+				52CBE6792A38F25B009E9A81 /* CocktailListCell.swift in Sources */,
+				52CBE6802A3FED0E009E9A81 /* PaddingLabel.swift in Sources */,
+				52CBE67E2A3BC78B009E9A81 /* DetailViewController.swift in Sources */,
 				52CBE6442A37D970009E9A81 /* SceneDelegate.swift in Sources */,
+				52CBE67B2A3902CD009E9A81 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52CBE6472A37D970009E9A81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52CBE6482A37D970009E9A81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52CBE64C2A37D972009E9A81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,11 +476,13 @@
 				DEVELOPMENT_TEAM = AG76BK4REC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cocktail Hour/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +506,13 @@
 				DEVELOPMENT_TEAM = AG76BK4REC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cocktail Hour/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
